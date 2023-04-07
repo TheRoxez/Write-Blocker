@@ -1,0 +1,48 @@
+Write Blocker
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+××××××××××××××××××××××××××××××××××××
+××××××××××××××××××××××××××××××××××××
+
+Bu uygulama python3.10 sürümü ile yazılmıştır.
+
+Uygulamanın amacı takılan harici diske write block uygulamaktır.
+
+××××××××××××××××××××××××××××××××××××
+××××××××××××××××××××××××××××××××××××
+
++▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬+
+| Önemli:                                                               |
+| ▬▬▬▬▬▬▬                                                               |
+|                                                                       |
+| Bu uygulamayı çalıştırabilmek için requirements.txt içerisindeki      |
+| kütüphaneleri yüklemeniz gerekmektedir                                |
+|                                                                       |
++▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬+
+
+××××××××××××××××××××××××××××××××××××
+×××××××××××××××ADIMLAR××××××××××××××
+
+1.
+Uygulamada os kütüphanesi ile terminale gidilir
+
+2.
+Belirtilen komut os kütüphanesinin fonksiyonları ile çalıştırılır  
+
+3.
+Diskler Listelenir listelenmeden önce filtre uygulanır
+
+4.
+Kullanıcıya hangi işlemi yapmak istediği sorulur ve işlem başlatılır
+
+5.
+İşlemi hangi diske uygulamak istediği sorulur ve işlem diske uygulanır
+
+××××××××××××××××××××××××××××××××××××
+××××××××××××××××××××××××××××××××××××
+
+Geçmiş:
+▬▬▬▬▬▬▬
+07/04/23 - Oluşturulma tarihi
+
+Teşekkürler
