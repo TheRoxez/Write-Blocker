@@ -43,6 +43,7 @@ Kullanıcıya hangi işlemi yapmak istediği sorulur ve işlem başlatılır
 
 Geçmiş:
 ▬▬▬▬▬▬▬
-07/04/23 - Oluşturulma tarihi
+07/04/23 - Oluşturulma Tarihi
+07/04/23 - Güncelleme Tarihi
 
 Teşekkürler
