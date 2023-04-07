@@ -1,7 +1,11 @@
 import os
 
 def Blok():
-    os.system("lsblk -o NAME,VENDOR,MOUNTPOINT | grep sd | grep -v sda")
+    diskler = os.popen("lsblk -o NAME,VENDOR,MOUNTPOINT | grep -v loop | grep /media" ).read().strip()
+    if not diskler:
+        print("Listelenecek disk bulunamadı.")
+        return
+    print(diskler)
     selected_disk = input("Hangi diski bloklamak istiyorsunuz? (sdb1, sdc5, sdt6)")
     os.system("sudo mount -o remount,ro /dev/{}".format(selected_disk))
     mounted_disk = os.popen("mount | grep /dev/{}".format(selected_disk)).read().strip()
@@ -11,7 +15,11 @@ def Blok():
         print("İşlem Başarısız.")
 
 def UnBlok():
-    os.system("lsblk -o NAME,VENDOR,MOUNTPOINT | grep sd | grep -v sda")
+    diskler = os.popen("lsblk -o NAME,VENDOR,MOUNTPOINT | grep -v loop | grep -v VMware").read().strip()
+    if not diskler:
+        print("Listelenecek disk bulunamadı.")
+        return
+    print(diskler)
     selected_disk = input("Hangi diski bağlamak istiyorsunuz? (sdb1, sdc5, sdt6)")
     os.system("sudo mount -o remount,rw /dev/{}".format(selected_disk))
     mounted_disk = os.popen("mount | grep /dev/{}".format(selected_disk)).read().strip()
